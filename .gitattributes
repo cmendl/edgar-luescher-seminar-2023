@@ -1,0 +1,6 @@
+
+# treat PDF files as binary files
+*.pdf binary
+
+# treat data files as binary files
+*.dat binary
