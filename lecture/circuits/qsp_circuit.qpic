@@ -1,0 +1,11 @@
+SCALE 1.75
+color=TUMOrange a W \ket{0} \bra{0}
+b W
+c W
+d W
+a G $\e^{i {\color{forestgreen}\varphi_0}}$ width=18
+a b c d G $V$ width=25
+a G $\e^{i {\color{forestgreen}\varphi_1}}$ width=18
+LABEL \cdots
+a b c d G $V$ width=25
+a G $\e^{i {\color{forestgreen}\varphi_d}}$ width=18

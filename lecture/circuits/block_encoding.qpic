@@ -1,0 +1,7 @@
+SCALE 1.75
+color=TUMOrange a W
+b W
+c W
+d W
+a G $R(\lambda_j)$ width=24 fill=TUMBlauHell
+b c d G $\ket{\psi_j}\bra{\psi_j}$ width=35

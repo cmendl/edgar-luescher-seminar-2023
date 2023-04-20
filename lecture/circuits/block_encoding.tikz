@@ -1,0 +1,29 @@
+\begin{tikzpicture}[scale=1.750000,x=1pt,y=1pt]
+\filldraw[color=white] (0.000000, -7.500000) rectangle (47.000000, 52.500000);
+% Drawing wires
+% Line 2: color=TUMOrange a W
+\draw[color=TUMOrange] (0.000000,45.000000) -- (47.000000,45.000000);
+% Line 3: b W
+\draw[color=black] (0.000000,30.000000) -- (47.000000,30.000000);
+% Line 4: c W
+\draw[color=black] (0.000000,15.000000) -- (47.000000,15.000000);
+% Line 5: d W
+\draw[color=black] (0.000000,0.000000) -- (47.000000,0.000000);
+% Done with wires; drawing gates
+% Line 6: a G $R(\lambda_j)$ width=24 fill=TUMBlauHell
+\begin{scope}
+\draw[fill=TUMBlauHell] (23.500000, 45.000000) +(-45.000000:16.970563pt and 8.485281pt) -- +(45.000000:16.970563pt and 8.485281pt) -- +(135.000000:16.970563pt and 8.485281pt) -- +(225.000000:16.970563pt and 8.485281pt) -- cycle;
+\clip (23.500000, 45.000000) +(-45.000000:16.970563pt and 8.485281pt) -- +(45.000000:16.970563pt and 8.485281pt) -- +(135.000000:16.970563pt and 8.485281pt) -- +(225.000000:16.970563pt and 8.485281pt) -- cycle;
+\draw (23.500000, 45.000000) node {$R(\lambda_j)$};
+\end{scope}
+% Line 7: b c d G $\ket{\psi_j}\bra{\psi_j}$ width=35
+\draw (23.500000,30.000000) -- (23.500000,0.000000);
+\begin{scope}
+\draw[fill=white] (23.500000, 15.000000) +(-45.000000:24.748737pt and 29.698485pt) -- +(45.000000:24.748737pt and 29.698485pt) -- +(135.000000:24.748737pt and 29.698485pt) -- +(225.000000:24.748737pt and 29.698485pt) -- cycle;
+\clip (23.500000, 15.000000) +(-45.000000:24.748737pt and 29.698485pt) -- +(45.000000:24.748737pt and 29.698485pt) -- +(135.000000:24.748737pt and 29.698485pt) -- +(225.000000:24.748737pt and 29.698485pt) -- cycle;
+\draw (23.500000, 15.000000) node {$\ket{\psi_j}\bra{\psi_j}$};
+\end{scope}
+% Done with gates; drawing ending labels
+% Done with ending labels; drawing cut lines and comments
+% Done with comments
+\end{tikzpicture}
